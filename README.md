@@ -4,6 +4,10 @@
 
 Laravenv is a [docker](https://www.docker.com/) image ready to put running [Laraver](https://laravel.com/) framework. Take a look around and feel free to suggest improvements.
 
+# Supported tags and respective `Dockerfile` links
+
+-	[`7.3-slim`, `slim` (*slim/7.3/Dockerfile*)](https://github.com/niccolomeloni/laravenv/blob/master/7.3/slim/Dockerfile)
+
 ## Laravel Server Requirements
 
 | Dependencies |
@@ -33,7 +37,7 @@ All the image tags comes with following features out of the box:
 In order to get started type following command from root directory of your Laravel project
 
 ```sh
-docker run --rm -it -p 8000:8000 -v $PWD:/laravel niccolomeloni/laravenv:7.3-slim php artisan serve --host 0.0.0.0
+docker run --rm -it -p 8000:8000 -v $PWD:/laravel niccolomeloni/laravenv:slim php artisan serve --host 0.0.0.0
 ```
 
 ## License
