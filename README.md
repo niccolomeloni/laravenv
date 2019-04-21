@@ -33,7 +33,7 @@ All the image tags comes with following features out of the box:
 In order to get started type following command from root directory of your Laravel project
 
 ```sh
-docker run --rm -it -p 8000:8000 -v $PWD:/laravel niccolomeloni/laravenv:slim php artisan serve --host 0.0.0.0
+docker run --rm -it -p 8000:8000 -v $PWD:/laravel niccolomeloni/laravenv:7.3-slim php artisan serve --host 0.0.0.0
 ```
 
 ## License
