@@ -6,8 +6,6 @@ Laravenv is a [docker](https://www.docker.com/) image ready to put running [Lara
 
 ## Laravel Server Requirements
 
-More [here](https://laravel.com/docs/5.8#server-requirements)
-
 | Dependencies |
 | ------------ |
 | PHP >= 7.1.3 |
@@ -20,6 +18,8 @@ More [here](https://laravel.com/docs/5.8#server-requirements)
 | JSON PHP Extension |
 | BCMath PHP Extension |
 
+More [here](https://laravel.com/docs/5.8#server-requirements)
+
 ## Getting Started
 
 All the image tags comes with following features out of the box:
@@ -30,7 +30,7 @@ All the image tags comes with following features out of the box:
 
 ### The `slim` tag 
 
-In order to get started type following command
+In order to get started type following command from root directory of your Laravel project
 
 ```sh
 docker run --rm -it -p 8000:8000 -v $PWD:/laravel niccolomeloni/laravenv:slim php artisan serve --host 0.0.0.0
