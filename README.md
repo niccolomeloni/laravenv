@@ -1,6 +1,6 @@
 # Laravenv
 
-[![DockerHub Pulls](https://img.shields.io/docker/pulls/niccolomeloni/laravenv.svg)](https://hub.docker.com/r/niccolomeloni/docker-nativescript-cli/) [![DockerHub Stars](https://img.shields.io/docker/stars/niccolomeloni/laravenv.svg)](https://hub.docker.com/r/niccolomeloni/docker-nativescript-cli/) [![GitHub Stars](https://img.shields.io/github/stars/niccolomeloni/laravenv.svg?label=github%20stars)](https://github.com/niccolomeloni/laravenv) [![GitHub License](https://img.shields.io/github/license/niccolomeloni/laravenv.svg)](https://github.com/niccolomeloni/docker-nativescript-cli)
+[![DockerHub Pulls](https://img.shields.io/docker/pulls/niccolomeloni/laravenv.svg)](https://hub.docker.com/r/niccolomeloni/laravenv/) [![DockerHub Stars](https://img.shields.io/docker/stars/niccolomeloni/laravenv.svg)](https://hub.docker.com/r/niccolomeloni/laravenv/) [![GitHub Stars](https://img.shields.io/github/stars/niccolomeloni/laravenv.svg?label=github%20stars)](https://github.com/niccolomeloni/laravenv) [![GitHub License](https://img.shields.io/github/license/niccolomeloni/laravenv.svg)](https://github.com/niccolomeloni/laravenv)
 
 Laravenv is a [docker](https://www.docker.com/) image ready to put running [Laraver](https://laravel.com/) framework. Take a look around and feel free to suggest improvements.
 
